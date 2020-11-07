@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #412fb3;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    color: white;
+    .container {
+        align-items: center;
+        margin: 0 auto;
+        width: 1050px;
+        justify-content: space-between;
+        display: flex;
+    }
+    img {
+        height: 20px;
+    }
+    .menu {
+        a {
+            padding: 8px;
+            font-size: 14px;
+            padding: 0 15px;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+    }
+    h1 {
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+    }
+}
+
+main {
+    margin-top: 80px;
+}
+
+.banner {
+    height: calc(100vh - 80px);
+    display: flex;
+    background-color: #22195b;
+    .img__text {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 1050px;
+        margin: 0 auto;
+    }
+    .text {
+        padding-left: 50px;
+        width: 50%;
+        color: #ffffff;
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        p {
+            margin: 0px 0px 45px;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    img {
+        width: 50%;
+    }
+}
+
+.advantages {
+    margin: 0 auto;
+    padding: 85px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    max-width: 1050px;
+    align-items: center
+}
+
+h2 {
+    color: #3A414E;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 0 10px;
+    font-size: 36px;
+}
+
+p {
+    color: #797979;
+}
+
+.cards {
+    margin-top: 50px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    .card {
+        padding: 30px 35px;
+        text-align: left!important;
+        align-items: left;
+        background-color: #faf9ff;
+        &:hover {
+            background: #fff;
+            box-shadow: 0px 10px 20px 0px rgba(33, 20, 106, 0.1);
+        }
+        h2 {
+            color: black;
+            font-size: 22px;
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0 auto;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #21146a;
+    color: #3a414e;
+    transition: all .4s ease;
+    .btn:hover {
+        background-color: black;
+        color: white;
+    }
+}
