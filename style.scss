@@ -130,24 +130,45 @@
         
         .btn {
             display: inline-block;
-            border: 1px solid transparent;
             text-transform: capitalize;
             font-size: 15px;
             font-weight: 500;
             padding: 10px 24px;
             border-radius: 30px;
-            background-color: #ffffff;
-            color: #21146a;
-            color: #3a414e;
             transition: all .4s ease;
-            .btn:hover {
-                background-color: black;
-                color: white;
+            &.btn-accent {
+                color: #21146a;
+                border: 1px solid transparent;
+                color: #3a414e;
+                background-color: #ffffff;
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    &.btn-primary {
+                        color: #21146a;
+                        border: 1px solid transparent;
+                        color: #3a414e;
+                        background-color: #ffffff;
+                    }
+                }
             }
         }
         
         .img_banner {
+            padding: 45px;
             background-color: #faf9ff;
+            .container {
+                margin: 0 auto;
+                max-width: 1110px;
+                display: flex;
+                div {
+                    max-width: 462px;
+                    margin: 0 auto;
+                    p {
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
         }
         
         .imgortext {
@@ -164,7 +185,11 @@
             align-items: right;
         }
         
-        .btn2 {
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .btn-primary {
             display: inline-block;
             border: 1px solid transparent;
             text-transform: capitalize;
@@ -176,4 +201,13 @@
             color: #21146a;
             color: #3a414e;
             transition: all .4s ease;
+            background-color: transparent;
+            border-color: #21146a;
+            .bnt:hover {
+                background-color: #21146a;
+                color: #fff;
+                background-color: transparent;
+                border-color: #21146a;
+                color: #000022;
+            }
         }
