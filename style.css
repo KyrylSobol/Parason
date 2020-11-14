@@ -104,6 +104,10 @@ main {
   width: 50%;
 }
 
+.banner .grey {
+  color: #fff;
+}
+
 .advantages {
   margin: 0 auto;
   padding: 85px;
@@ -182,5 +186,40 @@ p {
 .btn .btn:hover {
   background-color: black;
   color: white;
+}
+
+.img_banner {
+  background-color: #faf9ff;
+}
+
+.imgortext {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.texxt {
+  max-width: 462px;
+  margin: 0 auto;
+}
+
+.imgg {
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+.btn2 {
+  display: inline-block;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #21146a;
+  color: #3a414e;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 /*# sourceMappingURL=style.css.map */
